@@ -21,7 +21,7 @@ Download or clone this repository, and build using Xcode.
 
 Icon: [Creative Commoms](https://commons.wikimedia.org/wiki/File:Creative-Tail-Animal-cat.svg)
 
-```
-Apache Tomcat, Tomcat, Apache, the Apache feather, and the Apache Tomcat project logo are either registered trademarks or trademarks of the Apache Software Foundation.
+[STPrivilegedTask](https://github.com/sveinbjornt/STPrivilegedTask)
 
-```
+######
+*Apache Tomcat, Tomcat, Apache, the Apache feather, and the Apache Tomcat project logo are either registered trademarks or trademarks of the Apache Software Foundation.*
