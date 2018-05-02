@@ -9,22 +9,22 @@
 /* Begin PBXBuildFile section */
 		8BADBAAE209687E700BA9100 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BADBAAD209687E700BA9100 /* Info.plist */; };
 		8BADBAB02096907E00BA9100 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BADBAAF2096907E00BA9100 /* Icon.xcassets */; };
+		A2E6A48C209A01D100361D8B /* STPrivilegedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E6A48B209A01D100361D8B /* STPrivilegedTask.m */; };
 		F4F1035E1B5155A200BCAD40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F1035D1B5155A200BCAD40 /* AppDelegate.m */; };
 		F4F103601B5155A200BCAD40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F1035F1B5155A200BCAD40 /* main.m */; };
 		F4F103651B5155A200BCAD40 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4F103631B5155A200BCAD40 /* MainMenu.xib */; };
-		F4F1037C1B515A1C00BCAD40 /* STPrivilegedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F1037B1B515A1C00BCAD40 /* STPrivilegedTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8BADBAAD209687E700BA9100 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BADBAAF2096907E00BA9100 /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
+		A2E6A48A209A01D100361D8B /* STPrivilegedTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STPrivilegedTask.h; sourceTree = "<group>"; };
+		A2E6A48B209A01D100361D8B /* STPrivilegedTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STPrivilegedTask.m; sourceTree = "<group>"; };
 		F4E5E4001EE2953E0072EACE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F4F103571B5155A200BCAD40 /* TomCatViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomCatViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F1035C1B5155A200BCAD40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4F1035D1B5155A200BCAD40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F4F1035F1B5155A200BCAD40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F4F1037A1B515A1C00BCAD40 /* STPrivilegedTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STPrivilegedTask.h; path = ../../STPrivilegedTask.h; sourceTree = "<group>"; };
-		F4F1037B1B515A1C00BCAD40 /* STPrivilegedTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STPrivilegedTask.m; path = ../../STPrivilegedTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,6 @@
 		F4F1034E1B5155A200BCAD40 = {
 			isa = PBXGroup;
 			children = (
-				F4F1037D1B51663800BCAD40 /* STPrivilegedTask */,
 				F4F103591B5155A200BCAD40 /* TomCatViewer */,
 				F4F103581B5155A200BCAD40 /* Products */,
 			);
@@ -71,19 +70,11 @@
 				F4F1035F1B5155A200BCAD40 /* main.m */,
 				F4F1035C1B5155A200BCAD40 /* AppDelegate.h */,
 				F4F1035D1B5155A200BCAD40 /* AppDelegate.m */,
+				A2E6A48A209A01D100361D8B /* STPrivilegedTask.h */,
+				A2E6A48B209A01D100361D8B /* STPrivilegedTask.m */,
 				F47C14F61C8CB70C005BC692 /* Resources */,
 			);
 			path = TomCatViewer;
-			sourceTree = "<group>";
-		};
-		F4F1037D1B51663800BCAD40 /* STPrivilegedTask */ = {
-			isa = PBXGroup;
-			children = (
-				F4F1037A1B515A1C00BCAD40 /* STPrivilegedTask.h */,
-				F4F1037B1B515A1C00BCAD40 /* STPrivilegedTask.m */,
-			);
-			name = STPrivilegedTask;
-			path = PrivilegedTaskExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +109,7 @@
 				TargetAttributes = {
 					F4F103561B5155A200BCAD40 = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = 54JDK55DR5;
+						DevelopmentTeam = 2MK765758P;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -178,7 +169,7 @@
 			files = (
 				F4F103601B5155A200BCAD40 /* main.m in Sources */,
 				F4F1035E1B5155A200BCAD40 /* AppDelegate.m in Sources */,
-				F4F1037C1B515A1C00BCAD40 /* STPrivilegedTask.m in Sources */,
+				A2E6A48C209A01D100361D8B /* STPrivilegedTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +289,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 54JDK55DR5;
+				DEVELOPMENT_TEAM = 2MK765758P;
 				INFOPLIST_FILE = TomCatViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -315,7 +306,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 54JDK55DR5;
+				DEVELOPMENT_TEAM = 2MK765758P;
 				INFOPLIST_FILE = TomCatViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;

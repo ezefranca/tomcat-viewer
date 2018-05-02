@@ -69,7 +69,7 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                 </menuItem>
             </items>
-            <point key="canvasLocation" x="62" y="164"/>
+            <point key="canvasLocation" x="72" y="21"/>
         </menu>
         <window title="TomCat Viewer" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" frameAutosaveName="TomCat Viewer" animationBehavior="default" tabbingMode="disallowed" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" miniaturizable="YES" resizable="YES"/>
@@ -82,7 +82,7 @@
                     <button verticalHuggingPriority="750" misplaced="YES" id="mzG-KW-No6">
                         <rect key="frame" x="156" y="157" width="202" height="32"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <buttonCell key="cell" type="push" title="Start TomCat" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dLs-UA-vac">
+                        <buttonCell key="cell" type="push" title="Start Tomcat" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dLs-UA-vac">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                             <string key="keyEquivalent" base64-UTF8="YES">
@@ -96,7 +96,7 @@ DQ
                     <button verticalHuggingPriority="750" misplaced="YES" id="ISm-Xe-fLP">
                         <rect key="frame" x="156" y="125" width="202" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Stop TomCat" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="OFM-zp-LcV">
+                        <buttonCell key="cell" type="push" title="Stop Tomcat" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="OFM-zp-LcV">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -107,7 +107,7 @@ DQ
                     <button verticalHuggingPriority="750" misplaced="YES" id="9th-9Y-7JB">
                         <rect key="frame" x="156" y="92" width="202" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Open TomCat" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="vhj-Rz-cMg">
+                        <buttonCell key="cell" type="push" title="Open Tomcat" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="vhj-Rz-cMg">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -185,7 +185,7 @@ DQ
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" id="ONo-4Z-gqh">
                         <rect key="frame" x="18" y="174" width="92" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="TomCat Path" id="Jb5-Qi-PrZ">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Tomcat Path" id="Jb5-Qi-PrZ">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -194,7 +194,7 @@ DQ
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" id="Cgy-Bx-f20">
                         <rect key="frame" x="18" y="109" width="92" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="TomCat Port" id="ky1-2d-d86">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Tomcat Port" id="ky1-2d-d86">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
